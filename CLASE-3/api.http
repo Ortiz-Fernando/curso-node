@@ -1,0 +1,17 @@
+GET http://localhost:1234/movies
+###
+GET http://localhost:1234/movies/9e6106f0-848b-4810-a11a-3d832a5610f9
+###
+GET http://localhost:1234/movies?genre=drama
+###
+POST  http://localhost:1234/movies
+Content-Type: application/json
+
+{
+    "title": "ET",
+    "year": 1980,
+    "director": "JJ",
+    "duration": 142,
+    "poster": "https://i.ebayimg.com/images/g/qR8AAOSwkvRZzuMD/s-l1600.jpg",
+    "genre": ["Drama"]
+}

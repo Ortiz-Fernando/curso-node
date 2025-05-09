@@ -1,0 +1,13 @@
+codigo modificado del package.json
+
+"scripts": {
+    "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "eslintConfig": {
+    "extends": "standard"
+
+  },
+
+  -------------------------------------------------
+  

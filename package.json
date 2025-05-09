@@ -1,25 +1,27 @@
 {
-  "name": "curso-node",
+  "name": "curso nodejs",
   "version": "1.0.0",
-  "description": "curso midulive",
-  "main": "index.js",
+  "main": "http.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose"
   },
-  "keywords": [
-    "curso",
-    "node"
-  ],
-  "author": "Ortinz Gonzalez Fernando",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "picocolors": "1.1.1"
-  },
+  "description": "",
   "devDependencies": {
+    "eslint": "9.24.0",
+    "jest": "29.7.0",
+    "nodemon": "3.1.9",
     "standard": "17.1.2"
   },
   "eslintConfig": {
-    "extends": "standard"
+    "extends": "./node_modules/standard/eslintrc.json",
+    "env": {
+      "jest": true
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
-
 }
